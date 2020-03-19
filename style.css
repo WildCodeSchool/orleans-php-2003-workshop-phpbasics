@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto&display=swap');
+:root {
+    --main-color: #6604ff;
+    --light: #eeeaff;
+    --dark: #0c0111;
+    --spacing:8px;
+    --main-font: 'Roboto', sans-serif;
+    --title-font: 'Bebas Neue', cursive;
+}
+
+body {
+    margin:0;
+    font-family: var(--main-font);
+}
+
+main {
+    padding:var(--spacing);
+}
+
+header, footer {
+    display:flex;
+    background-color: var(--main-color);
+    padding:var(--spacing);
+    color:var(--light);
+}
+
+footer {
+    margin-top:var(--spacing);
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--title-font);
+    color:var(--main-font);
+}
